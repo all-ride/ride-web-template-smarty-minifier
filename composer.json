@@ -1,5 +1,5 @@
 {
-    "name": "ride/web-template-smarty-template",
+    "name": "ride/web-template-smarty-minifier",
     "description": "Smarty template integration for the minifier of the Ride framework",
     "license": "MIT",
     "version": "0.1.0",
