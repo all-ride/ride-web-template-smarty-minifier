@@ -16,7 +16,7 @@ Smarty plugins for the Ride framework, used to minify and include javascript/css
 ### CSS
 ```smarty
 {style src="carbon/css/main.css"}
-{style src="css/print.css" media="print"} {* Optional media parameter, defaults to 'screen' *}
+{style src="css/print.css" media="print"} {* Optional media parameter, defaults to 'all' *}
 
 {* minify css files and include them in the template *}
 {styles}
