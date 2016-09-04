@@ -11,7 +11,7 @@ function smarty_function_style($params, &$smarty) {
         $src = $params['src'];
 
         if (!isset($params['media'])) {
-            $media = 'screen';
+            $media = 'all';
         } else {
             $media = $params['media'];
         }
