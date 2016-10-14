@@ -2,7 +2,6 @@
     "name": "ride/web-template-smarty-minifier",
     "description": "Smarty template integration for the minifier of the Ride framework",
     "license": "MIT",
-    "version": "0.2.2",
     "authors": [
         {
             "name": "Joris Vandeweerd",
@@ -10,7 +9,10 @@
         }
     ],
     "require": {
-        "ride/app": ">=0.4.0",
-        "ride/web-minifier": ">=0.3.1"
+        "ride/app": "^1.0.0",
+        "ride/web": "^1.0.0",
+        "ride/web-template": "^1.0.0",
+        "ride/web-template-smarty": "^1.0.0",
+        "ride/web-minifier": "^1.0.0"
     }
 }
